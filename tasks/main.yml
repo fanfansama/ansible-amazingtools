@@ -1,0 +1,7 @@
+---
+# tasks file for amazingtools
+- name: install Jq
+  package:
+    name: jq
+    state: present
+  
